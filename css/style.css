@@ -24,3 +24,13 @@ body {
 input {
     margin: 5px 10px 5px 10px;
 }
+
+img {
+    height: 150px;
+    margin: 20px 0px 0px 0px;
+    border: 2px black solid;
+}
+
+p {
+    padding: 60px 0px 60px 0px;
+}
