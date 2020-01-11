@@ -13,7 +13,7 @@ let songLink = [
 let songInput, artistInput, lengthInput, imageInput, linkInput;
 
 songs.forEach(function(title){
-    $(".songList").append('<div class="appended text-add">'+title+'</div>');
+    $(".songList").append('<div class="appended songTitle text-add">'+title+'</div>');
 });
 
 artists.forEach(function(artist){
@@ -37,7 +37,7 @@ $("#submit").click (function() {
    
     //push all input vals
     songs.push($("#songInput").val());
-    $(".songList").append('<div class="appended text-add">'+songs[songs.length-1]+'</div>');
+    $(".songList").append('<div class="appended songTitle text-add">'+songs[songs.length-1]+'</div>');
 
     artists.push($("#artistInput").val());
     $(".artistList").append('<div class="appended text-add">'+artists[artists.length-1]+'</div>');
